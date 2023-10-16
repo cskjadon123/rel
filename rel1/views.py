@@ -4,8 +4,7 @@ from .models import Page,Post,Song,User
 
 # Create your views here.
 
-def home(request):
-    return render(request,'home.html')
+
 
 def show_user_data(request):
     data1 = User.objects.all()
